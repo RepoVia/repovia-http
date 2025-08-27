@@ -1,0 +1,10 @@
+[package]
+name = "repovia_http"
+version = "1.0.0"
+authors = ["Ryan Bruno <ryanbruno506@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+repovia_executor = { path = "../repovia-executor" }
+http = "1.0"
+log = "0.4"

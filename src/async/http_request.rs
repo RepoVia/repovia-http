@@ -1,8 +1,10 @@
 use http::{Request, Response, Method, Uri, HeaderName, HeaderValue};
 use std::time::Duration;
-use crate::GenericError;
+use repovia_utils::{
+  GenericError,
+  Receiver, Sender, channel,
+};
 use std::error::Error;
-use crate::{Receiver, Sender, channel};
 use repovia_executor::{
   NetExecutor, AsyncTcpStream, AsyncTcpListener
 };

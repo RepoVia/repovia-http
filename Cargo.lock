@@ -114,20 +114,20 @@ dependencies = [
 ]
 
 [[package]]
-name = "repovia-http"
-version = "1.0.0"
-dependencies = [
- "http",
- "log",
- "repovia_executor",
-]
-
-[[package]]
 name = "repovia_executor"
 version = "1.0.0"
 dependencies = [
  "log",
  "polling",
+]
+
+[[package]]
+name = "repovia_http"
+version = "1.0.0"
+dependencies = [
+ "http",
+ "log",
+ "repovia_executor",
 ]
 
 [[package]]

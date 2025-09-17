@@ -1,4 +1,3 @@
 
-pub mod channel;
-pub mod error;
-pub mod responses;
+mod responses;
+pub use responses::*;

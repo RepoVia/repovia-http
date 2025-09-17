@@ -6,5 +6,6 @@ edition = "2021"
 
 [dependencies]
 repovia_executor = { path = "../repovia-executor" }
+repovia_utils = { path = "../repovia-utils" }
 http = "1.0"
 log = "0.4"
